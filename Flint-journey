@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flint Journey | Kisah dan Arti Kehidupan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #0d47a1;
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.5em;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 16px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #bbdefb;
+    }
+    main {
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 0 16px 40px;
+    }
+    article {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 24px;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+    article:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    article h2 {
+      color: #0d47a1;
+      margin-top: 0;
+    }
+    article p {
+      line-height: 1.6;
+    }
+    .category {
+      font-size: 0.9em;
+      color: #888;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    footer {
+      background-color: #0d47a1;
+      color: #fff;
+      text-align: center;
+      padding: 16px;
+      margin-top: 40px;
+    }
+    .article-image {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    figcaption {
+      text-align: center;
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 8px;
+      font-style: italic;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 8px;
+      }
+      nav a {
+        display: inline-block;
+        margin: 4px 8px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Flint Journey</h1>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Kisah</a>
+      <a href="#">Refleksi</a>
+      <a href="#">Tentang</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <div class="category">Kisah</div>
+      <h2>Hidup Itu Adalah Sesuatu yang Sulit Dipahami</h2>
+      <p>
+        Hidup itu adalah sesuatu yang sulit dipahami, bahkan untuk manusia itu sendiri.  
+        Dalam perjalanan ini, setiap langkah membawa pertanyaan baru — apa arti bahagia?  
+        Mengapa kesedihan datang tanpa diminta?  
+        Flint Journey berusaha menemukan makna di balik setiap perasaan, pengalaman, dan kehilangan.
+      </p>
+      <p>
+        Mungkin, hidup bukan untuk dimengerti sepenuhnya.  
+        Tapi untuk dijalani dengan rasa ingin tahu yang tak pernah padam.
+      </p>
+    </article>
+
+    <article>
+      <div class="category">Refleksi</div>
+      <h2>Menemukan Cahaya di Tengah Gelap</h2>
+      <p>
+        Kadang, kita tidak menyadari bahwa gelap adalah tempat terbaik untuk melihat cahaya kecil di dalam diri.  
+        Flint Journey percaya — setiap jiwa punya sinar yang menunggu untuk ditemukan.
+      </p>
+
+      <figure>
+        <img src="https://raw.githubusercontent.com/flint179/Flint-journey/main/IMG-20250919-WA0248(1).jpg" 
+             alt="IMG-20250919-WA0248" 
+             class="article-image">
+        <figcaption>Kebersamaan yang tak tergantikan 🌿</figcaption>
+      </figure>
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025 Flint Journey — Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
